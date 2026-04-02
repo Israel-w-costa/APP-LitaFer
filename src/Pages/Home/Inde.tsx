@@ -1,7 +1,9 @@
+import { Intro } from "../../Components/Intro/Inde";
+
 export function Home() {
   return (
     <>
-      <h1>ola mundo</h1>
+      <Intro />
     </>
   );
 }
