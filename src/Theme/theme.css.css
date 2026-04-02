@@ -1,0 +1,55 @@
+/* Colors */
+:root {
+  --color-1: #272725; /* border, background */
+  --color-2: #fcfbf8; /* text, border, background */
+  --color-3: #c5c1ba; /* text */
+  --color-4: #d4d4d8; /* text */
+  --color-5: #1b1b1b; /* text */
+  --color-6: #1c1c1c; /* background, border, text */
+  --color-7: #f0f6ff; /* text */
+  --color-8: #4d91ff; /* text */
+  --color-9: #40403f; /* border, background */
+  --color-10: #1e52f1; /* background */
+  --color-11: #0d0d0d; /* background */
+  --color-12: #1b3b27; /* background */
+
+  /* Typography */
+  --font-1: "Aeonik Pro";
+  --font-2: "Aeonik Mono";
+  --font-3: "Times New Roman";
+
+  /* Spacing */
+  --padding-1: 0px 0px 8px;
+  --margin-2: 0px 0px 8px;
+  --padding-3: 8px;
+  --padding-4: 4px;
+  --margin-5: 0px 8px 0px 0px;
+  --margin-6: 0px 8px;
+  --padding-7: 0px 2px;
+  --margin-8: 0px 0px 4px;
+  --padding-9: 0px 16px 0px 0px;
+  --padding-10: 8px 16px;
+
+  /* Effects */
+  --filter-1: brightness(1); /* brightness, used 29 times */
+  --opacity-2: 0; /* transparency, used 20 times */
+  --box-shadow-3:
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(255, 255, 255, 0.2) 0px 0.5px 0px 0px inset,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 0.5px inset,
+    rgba(0, 0, 0, 0.05) 0px 1px 2px 0px; /* inset-shadow, used 9 times */
+  --transform-4: matrix(0, -1, 1, 0, 0, 0); /* transform, used 3 times */
+  --backdrop-filter-5: blur(4px); /* backdrop-effect, used 2 times */
+  --box-shadow-6:
+    rgb(255, 255, 255) 0px 0px 0px 0px, rgba(0, 0, 0, 0.16) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.1) 0px 2px 4px -2px; /* glow, used 2 times */
+  --filter-7: url("#_r_0_-c"); /* filter, used 1 times */
+  --filter-8: url("#_r_0_-d"); /* filter, used 1 times */
+  --filter-9: url("#_r_0_-e"); /* filter, used 1 times */
+  --filter-10: url("#_r_0_-f"); /* filter, used 1 times */
+  --filter-11: url("#_r_1_-c"); /* filter, used 1 times */
+  --filter-12: url("#_r_1_-d"); /* filter, used 1 times */
+  --filter-13: url("#_r_1_-e"); /* filter, used 1 times */
+  --filter-14: url("#_r_1_-f"); /* filter, used 1 times */
+  --filter-15: url("#_r_r_-filter0"); /* filter, used 1 times */
+}
